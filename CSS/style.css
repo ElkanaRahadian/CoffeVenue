@@ -79,32 +79,24 @@ header {
   margin: 60px auto;
   width: 50%;
   text-align: center;
+  padding: 20px;
 }
 
-.top-left {
+.top {
   display: flex;
   flex-direction: row;
+  padding-bottom: 10px;
 }
 
-.top-right {
+.bottom {
   display: flex;
   flex-direction: row;
-
-  margin: 0 auto;
-}
-
-.bottom-left {
-  display: flex;
-  flex-direction: row;
-}
-
-.bottom-right {
-  display: flex;
-  flex-direction: row;
+  margin: auto auto;
 }
 
 .top-left img {
   width: 200px;
+  padding: 10px;
 }
 
 .bottom-right img {
